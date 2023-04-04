@@ -1,0 +1,44 @@
+{
+  "name": "uscript",
+  "version": "0.1.0",
+  "description": "uScript - A tiny and modern ECMAScript 2021 framework with no virtual DOM",
+  "main": "src/core/uScript.ts",
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\"",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vhanla/uscript.git"
+  },
+  "keywords": [
+    "uscript",
+    "javascript",
+    "typescript",
+    "framework",
+    "tiny",
+    "fast",
+    "ecmascript"
+  ],
+  "author": "vhanla",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "typescript": "^4.3.5",
+    "vite": "^2.3.6"
+  },
+  "engines": {
+    "pnpm": ">=6.0.0"
+  },
+  "peerDependencies": {
+    "vite": "^2.3.6"
+  },
+  "files": [
+    "src/",
+    "types/"
+  ],
+  "module": "src/core/uScript.ts",
+  "typings": "types/uScript.d.ts"
+}
